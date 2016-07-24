@@ -14,7 +14,7 @@ sudo apt full-upgrade -y
 
 echo "Updates were Applied."
 
-echo "Applying Node, NPM, & Bower Packages"
+echo "Applying Node, NPM, Bower, & Grunt Packages"
 
 sudo apt install nodejs -y
 
@@ -25,6 +25,8 @@ sudo apt install npm -y
 sudo npm install npm -g
 
 sudo npm install bower -g
+
+sudo npm install grunt-cli -g
 
 echo "Installing Virtualbox Guest Additions"
 
