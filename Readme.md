@@ -3,7 +3,7 @@
 Read the Vagrant Documentation to install vagrant 
 and setup a Vagrant box. Don't forget to reload after
 first initial setup to make sure everything is properly 
-configured.
+configured or after modifying the "Vagrantfile".
 
 Reload vagrant by:
 `vagrant reload`
