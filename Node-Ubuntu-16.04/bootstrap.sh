@@ -14,7 +14,7 @@ sudo apt full-upgrade -y
 
 echo "Updates were Applied."
 
-echo "Applying Node, NPM, Bower, & Grunt Packages"
+echo "Applying Node, NPM, Bower, Grunt & Ionic Packages"
 
 sudo apt install nodejs -y
 
@@ -27,6 +27,8 @@ sudo npm install npm -g
 sudo npm install bower -g
 
 sudo npm install grunt-cli -g
+
+sudo npm install ionic -g
 
 echo "Installing Virtualbox Guest Additions"
 
