@@ -34,6 +34,10 @@ Vagrant.configure("2") do |config|
   #For Ionic below
     config.vm.network "forwarded_port", guest: 8100, host: 8100
     config.vm.network "forwarded_port", guest: 35729, host: 35729
+
+  #For Gulp below
+    config.vm.network "forwarded_port", guest: 3000, host: 3000
+    config.vm.network "forwarded_port", guest: 3001, host: 3001
 	
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
