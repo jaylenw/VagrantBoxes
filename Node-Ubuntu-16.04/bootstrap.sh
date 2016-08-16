@@ -14,7 +14,7 @@ sudo apt full-upgrade -y
 
 echo "Updates were Applied."
 
-echo "Applying Node, NPM, Bower, Grunt, Ionic, & Gulp Packages"
+echo "Applying Node, NPM, Bower, Grunt, Ionic, Gulp, Forever Packages"
 
 sudo apt install nodejs -y
 
@@ -31,6 +31,12 @@ sudo npm install grunt-cli -g
 sudo npm install ionic -g
 
 sudo npm install gulp -g
+
+sudo npm install forever -g
+
+echo "Installing MongoDB"
+
+sudo apt install mongodb -y
 
 echo "Installing Virtualbox Guest Additions"
 
