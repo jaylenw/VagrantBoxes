@@ -29,5 +29,7 @@ forwarded ports.
 ##Quick Commands
 
 `vagrant up` - Boot the VM
+
 `vagrant ssh` - Login to the VM
+
 `vagrant halt` - Shut down the VM
