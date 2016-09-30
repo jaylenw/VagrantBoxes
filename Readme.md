@@ -33,3 +33,12 @@ forwarded ports.
 `vagrant ssh` - Login to the VM
 
 `vagrant halt` - Shut down the VM
+
+###Specific for Node-Ubuntu-16.04 vagrant box:
+
+Create a folder named `Files` in the same folder as the Vagrantfile and bootstrap.sh file 
+before running the command `vagrant up`.
+
+The Files directory links the `Files` folder from your host computer to the `Files` folder 
+in the virtual machine. Whatever files added, updated, and deleted will be reflected 
+in the virtual machine.
