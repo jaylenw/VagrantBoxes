@@ -41,3 +41,9 @@ sudo apt install mongodb -y
 echo "Installing Virtualbox Guest Additions"
 
 sudo apt install virtualbox-guest-additions-iso -y
+
+echo "###########################"
+echo "---------------------------"
+echo "Script Finished!"
+echo "---------------------------"
+echo "###########################"
