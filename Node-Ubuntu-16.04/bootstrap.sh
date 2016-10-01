@@ -30,6 +30,8 @@ sudo npm install grunt-cli -g
 
 sudo npm install ionic -g
 
+sudo npm install cordova -g
+
 sudo npm install gulp -g
 
 sudo npm install forever -g
