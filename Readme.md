@@ -1,6 +1,6 @@
-#Description
+# Description
 
-This Repo has the config files I use for my Vagrant Boxes.
+This Repo has the config files I use for my [Vagrant](https://www.vagrantup.com/) Boxes.
 You may clone the repository or view the config files to 
 help yourself establish your dev environments.
 
@@ -26,7 +26,7 @@ box deals with such things as number of cpu cores, amount of ram, and
 forwarded ports.
 
 
-##Quick Commands
+## Quick Commands
 
 `vagrant up` - Boot the VM
 
@@ -34,7 +34,7 @@ forwarded ports.
 
 `vagrant halt` - Shut down the VM
 
-###Specific for Node-Ubuntu-16.04 vagrant box:
+### Specific for Node-Ubuntu-16.04 vagrant box:
 
 Create a folder named `Files` in the same folder as the Vagrantfile and bootstrap.sh file 
 before running the command `vagrant up`.
