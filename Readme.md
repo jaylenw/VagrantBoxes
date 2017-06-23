@@ -42,3 +42,16 @@ before running the command `vagrant up`.
 The Files directory links the `Files` folder from your host computer to the `Files` folder 
 in the virtual machine. Whatever files added, updated, and deleted will be reflected 
 in the virtual machine.
+
+### Personal Project Relationships
+
+**Node-Ubuntu-16.04**
+
+AngularTodo
+IonicTodo
+JaylenBackendTodo
+TodoBackend
+
+**Node-Version6**
+
+SperoFrontend
