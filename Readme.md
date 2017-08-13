@@ -20,6 +20,8 @@ virtualbox machines. Run `vagrant plugin install vagrant-vbguest` to have a plug
 that keep your box's guest additions updated everytime when you run `vagrant up`.
 Essential if you have shared folder errors or virtualbox addition errors.
 
+Also run `vagrant plugin install vagrant-disksize` to have a plugin that will
+give yourself the ability to increase your virtualbox disk easily. 
 
 View bootstrap.sh and the Vagrant file to see what software is installed on 
 initial setup as well custom configuration of the box. Configuration of the 
@@ -35,7 +37,7 @@ forwarded ports.
 
 `vagrant halt` - Shut down the VM
 
-### Specific for Node-Ubuntu-16.04 vagrant box:
+### Shared Directories for vagrant boxes:
 
 Create a folder named `Files` in the same folder as the Vagrantfile and bootstrap.sh file 
 before running the command `vagrant up`.
@@ -49,8 +51,9 @@ in the virtual machine.
 **Node-Ubuntu-16.04**
 
 AngularTodo
+
 IonicTodo
-JaylenBackendTodo
+
 TodoBackend
 
 **Node-Version6**
