@@ -17,9 +17,6 @@ Vagrant.configure("2") do |config|
   #Provision File
   config.vm.provision :shell, path: "bootstrap.sh"
 
-  #For resizing the virtualbox to 40GB, comment out when resized.
-  #config.disksize.size = '40GB'
-
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
@@ -30,21 +27,8 @@ Vagrant.configure("2") do |config|
   # accessing "localhost:8080" will access port 80 on the guest machine.
   # config.vm.network "forwarded_port", guest: 80, host: 8080
   
-  # For grunt below & Baasbox
-    config.vm.network "forwarded_port", guest: 9000, host: 9000
-    config.vm.network "forwarded_port", guest: 35729, host: 35729
-
-  #For Ionic below
-    config.vm.network "forwarded_port", guest: 8100, host: 8100
-    config.vm.network "forwarded_port", guest: 35729, host: 35729
-
-  #For Gulp below and Forever w/ Express
-    config.vm.network "forwarded_port", guest: 3000, host: 3000
-    config.vm.network "forwarded_port", guest: 3001, host: 3001
-
-  #For MongoDB
-    config.vm.network "forwarded_port", guest: 27017, host: 27017
-  
+  # For Angular serve
+    config.vm.network "forwarded_port", guest: 4200, host: 4200
 	
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
@@ -73,6 +57,8 @@ Vagrant.configure("2") do |config|
      vb.memory = "2048"
       #Customize the amount of cpu cores on the VM:
      vb.cpus = 2
+      #Customize the name of the virtualbox
+     vb.name = "ubuntu-xenial-16.04-Node-Version6"
    end
   #
   # View the documentation for the provider you are using for more
