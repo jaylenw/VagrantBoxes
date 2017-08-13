@@ -12,3 +12,6 @@ It is also important to have up to date Virtualbox guest additions for your
 machines. Run `vagrant plugin install vagrant-vbguest` to have a plugin
 keep your boxe's guest additions updated everytime when you run `vagrant up`.
 Essential if you have shared folder errors or virtualbox addition errors.
+
+Also Run `vagrant plugin install vagrant-disksize` to have a plugin that will
+give yourself the ability to increase your virtualbox disk easily. 
