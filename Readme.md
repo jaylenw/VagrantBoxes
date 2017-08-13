@@ -37,7 +37,7 @@ forwarded ports.
 
 `vagrant halt` - Shut down the VM
 
-### Specific for Node-Ubuntu-16.04 vagrant box:
+### Shared Directories for vagrant boxes:
 
 Create a folder named `Files` in the same folder as the Vagrantfile and bootstrap.sh file 
 before running the command `vagrant up`.
@@ -51,8 +51,9 @@ in the virtual machine.
 **Node-Ubuntu-16.04**
 
 AngularTodo
+
 IonicTodo
-JaylenBackendTodo
+
 TodoBackend
 
 **Node-Version6**
