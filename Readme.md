@@ -2,14 +2,14 @@
 # Description
 
 This Repo has the config files I use for my [Vagrant](https://www.vagrantup.com/) Boxes.
-You may clone the repository or view the config files to 
+You may clone the repository or view the config files to
 help yourself establish your dev environments.
 
 # Configuration Files for Vagrant Boxes
 
-Read the Vagrant Documentation to install vagrant 
+Read the Vagrant Documentation to install vagrant
 and setup a Vagrant box. Don't forget to reload after
-first initial setup to make sure everything is properly 
+first initial setup to make sure everything is properly
 configured or after modifying the "Vagrantfile".
 
 Reload vagrant by:
@@ -21,11 +21,11 @@ that keep your box's guest additions updated everytime when you run `vagrant up`
 Essential if you have shared folder errors or virtualbox addition errors.
 
 Also run `vagrant plugin install vagrant-disksize` to have a plugin that will
-give yourself the ability to increase your virtualbox disk easily. 
+give yourself the ability to increase your virtualbox disk easily.
 
-View bootstrap.sh and the Vagrant file to see what software is installed on 
-initial setup as well custom configuration of the box. Configuration of the 
-box deals with such things as number of cpu cores, amount of ram, and 
+View bootstrap.sh and the Vagrant file to see what software is installed on
+initial setup as well custom configuration of the box. Configuration of the
+box deals with such things as number of cpu cores, amount of ram, and
 forwarded ports.
 
 
@@ -39,11 +39,11 @@ forwarded ports.
 
 ### Shared Directories for vagrant boxes:
 
-Create a folder named `Files` in the same folder as the Vagrantfile and bootstrap.sh file 
+Create a folder named `Files` in the same folder as the Vagrantfile and bootstrap.sh file
 before running the command `vagrant up`.
 
-The Files directory links the `Files` folder from your host computer to the `Files` folder 
-in the virtual machine. Whatever files added, updated, and deleted will be reflected 
+The Files directory links the `Files` folder from your host computer to the `Files` folder
+in the virtual machine. Whatever files added, updated, and deleted will be reflected
 in the virtual machine.
 
 ### Personal Project Relationships
@@ -54,9 +54,8 @@ AngularTodo
 
 IonicTodo
 
-TodoBackend
+TodoBackend / Nota
 
 **Node-Version6**
 
 SperoFrontend
-
