@@ -16,13 +16,11 @@ echo "Updates were Applied."
 
 echo "Applying Node, NPM, Bower, Grunt, Ionic, Gulp, Forever Packages"
 
+sudo curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+
 sudo apt install nodejs -y
 
 sudo ln -s /usr/bin/nodejs /usr/bin/node
-
-sudo apt install npm -y
-
-sudo npm install npm -g
 
 sudo npm install bower -g
 
