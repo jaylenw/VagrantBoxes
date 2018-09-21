@@ -48,7 +48,7 @@ in the virtual machine.
 
 ### Personal Project Relationships
 
-**Node-Ubuntu-16.04**
+**Nota**
 
 AngularTodo
 

@@ -16,11 +16,9 @@ echo "Updates were Applied."
 
 echo "Applying Node, NPM, Bower, Grunt, Ionic, Gulp, Forever Packages"
 
-sudo curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
+sudo curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 
 sudo apt install nodejs -y
-
-sudo ln -s /usr/bin/nodejs /usr/bin/node
 
 sudo npm install bower -g
 
@@ -36,7 +34,11 @@ sudo npm install forever -g
 
 echo "Installing MongoDB"
 
-sudo apt install mongodb -y
+echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+
+sudo apt-get update
+
+sudo apt-get install mongodb -y
 
 echo "Installing Virtualbox Guest Additions"
 
